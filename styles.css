@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+html {
+  font-family: "Quicksand", sans-serif;
+}
+.headingContainer {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: fit-content;
+}
+.mainBanner {
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+.wave {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+.titleBodyText {
+  font-size: 1.75rem !important;
+}
+
+.bodyText {
+  color: #5e6e66;
+  font-size: 0.75rem;
+  line-height: 1.42;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.m-shorten {
+  margin-left: -5vw !important;
+  margin-right: -5vw !important;
+}
+
+.bannerContainer {
+  left: 5%;
+  color: #fff !important;
+  top: 20%;
+}
+.p-absolute {
+  position: absolute;
+}
+.mb-5 {
+  margin-bottom: 5vh;
+}
+
+.box {
+  width: 25%;
+  margin: 0 auto;
+  min-height: 45%;
+  border-radius: 1rem;
+  box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.18);
+}
+.boxTextContainer{
+    min-height: 10rem;
+}
+.row {
+  width: 100%;
+  height: fit-content;
+}
+.textCenter {
+  text-align: center;
+}
+.d-flex {
+  display: flex !important;
+}
+.col-6 {
+  margin: auto;
+  display: inline-block;
+  width: 50%;
+}
+
+.col-11 {
+  margin: auto;
+  display: inline-block;
+  width: 91.6%;
+}
+.d-block {
+  display: block;
+}
+
+.titleBottom {
+  border: 0;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  background-color: #de6c17;
+  font-weight: bold;
+  margin-top: 2rem;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.fontWeightNormal {
+  font-weight: normal;
+}
+.bottomColor {
+  color: #de6c17 !important;
+  font-weight: bold;
+}
+.boxHeadImg {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem 1rem 0 0;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .boxintablet {
+    width: 80% !important;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .boxintablet {
+    width: 90% !important;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .boxHeadImg {
+    width: 50%;
+    height: fit-content;
+    object-fit: cover;
+    border-radius: 1rem 0 0 1rem;
+  }
+  .boxTableRow {
+    width: 47%;
+    margin-left: auto;
+  }
+
+  .bannerContainer {
+    left: 5%;
+    color: #fff !important;
+    top: 10%;
+  }
+  .boxintablet {
+    display: flex;
+  }
+  .m-shorten {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .d-block {
+    display: block !important;
+  }
+  .boxSpacer {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  .tabletCenterTextContainer {
+    width: 80% !important;
+  }
+}
